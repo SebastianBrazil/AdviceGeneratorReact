@@ -17,10 +17,38 @@ code {
     monospace;
 }
 
-.color{
-  color: hsl(193, 38%, 86%); /* Light Cyan */
-  color: hsl(150, 100%, 66%); /* Neon Green */
-  color: hsl(217, 19%, 38%); /* Grayish Blue */
-  color: hsl(217, 19%, 24%); /* Dark Grayish Blue */
-  color: hsl(218, 23%, 16%); /* Dark Blue */
+@font-face {
+  font-family: manrope;
+  src: url(./assets/fonts/Manrope-VariableFont_wght.ttf);
 }
+
+.fontChange{
+  font-family: manrope;
+}
+
+.fontWeightChange{
+  font-weight: 800;
+}
+
+.lighterGrey{
+  background-color: hsl(217, 19%, 38%); /* Grayish Blue */
+}
+
+.green{
+  color: hsl(150, 100%, 66%); /* Neon Green */
+}
+
+.white{
+  color: hsl(193, 38%, 86%); /* Light Cyan */
+}
+
+
+
+/* 
+.color{
+  color: hsl(193, 38%, 86%); Light Cyan
+  color: hsl(150, 100%, 66%); Neon Green
+  color: hsl(217, 19%, 38%); Grayish Blue
+  color: hsl(217, 19%, 24%); Dark Grayish Blue
+  color: hsl(218, 23%, 16%); Dark Blue
+} */
