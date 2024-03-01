@@ -32,7 +32,7 @@ const MainComponent = () => {
                 </div>
 
                 <div className='flex justify-center'>
-                    <div onClick={changeAd} className='greenBG p-5 lg:p-6 rounded-full relative top-8 lg:top-10 '>
+                    <div onClick={changeAd} className='greenBG p-5 lg:p-6 rounded-full relative top-8 lg:top-10 button'>
                         <img src={dice} className='lg:w-8' alt="Dice" />
                     </div>
                 </div>

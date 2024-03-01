@@ -54,17 +54,17 @@ code {
   background-repeat: no-repeat;
 }
 
+.button{
+
+}
+
+.button:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 30px hsl(150, 100%, 66%);
+}
+
 @media screen and (min-width: 768px) {      
   .imageBg{      
     background-image: url(./assets/images/pattern-divider-desktop.svg);
   } 
-} 
-
-/* 
-.color{
-  color: hsl(193, 38%, 86%); Light Cyan
-  color: hsl(150, 100%, 66%); Neon Green
-  color: hsl(217, 19%, 38%); Grayish Blue
-  color: hsl(217, 19%, 24%); Dark Grayish Blue
-  color: hsl(218, 23%, 16%); Dark Blue
-} */
+}
